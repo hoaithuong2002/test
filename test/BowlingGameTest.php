@@ -1,7 +1,8 @@
 <?php
 
+use PHPUnit\Framework\TestCase;
 
-class BowlingGameTest
+class BowlingGameTest extends TestCase
 {
     function testScoreCalculation()
     {
